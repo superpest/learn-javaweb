@@ -28,5 +28,11 @@
    		<dd><a href="09/index.jsp">page</a></dd>
    		<dd><a href="09/error.jsp">error</a></dd>
    	</dl>
+   		<dl>
+		<dt>jstl</dt>
+   		<dd><a href="10/index.jsp">jstl:core</a></dd>
+
+   	</dl>
+   	
 </body>
 </html>

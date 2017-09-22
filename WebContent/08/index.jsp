@@ -1,3 +1,4 @@
+<%@page import="java.util.Enumeration"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
@@ -26,7 +27,18 @@
 		
 	<p>服务器信息: <%= application.getServerInfo() %></p>
 	<p>应用程序: <%= application.getServletContextName() %></p>
-
-
+	
+	<br />
+	<p>应用程序中属性:</p>
+	<% 
+       application.setAttribute("city", "北京");
+       application.setAttribute("postcode", "10000");
+       
+       Enumeration attributes = application.getAttributeNames();
+       while(attributes.hasMoreElements()){
+          out.println("<p>" + attributes.nextElement() + "</p>");
+       }
+    %>
+	
 </body>
 </html>

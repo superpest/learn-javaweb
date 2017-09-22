@@ -10,6 +10,10 @@
     <%
     	out.print(page.toString());
     %>
-
+    <br>
+	Application:<%=PageContext.APPLICATION_SCOPE %><br>
+    Session:<%=PageContext.SESSION_SCOPE %><br>
+    Request:<%=PageContext.REQUEST_SCOPE %><br>
+    Page:<%=PageContext.PAGE_SCOPE %><br>
 </body>
 </html>

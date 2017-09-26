@@ -101,4 +101,24 @@ public class ItemsDAO {
 			}
 		}
 	}
+
+	public ArrayList<Items> getViewList(String list) {
+		ArrayList<Items> itemlist = new ArrayList<Items>();
+		int iCount = 5;
+		if (list != null && list.length() > 0) {
+			String[] arr = list.split(",");
+			if (arr.length >= 5) {
+				for (int i = arr.length - 1; i >= arr.length - iCount; i--) {
+					itemlist.add(getItemsById(Integer.parseInt(arr[i])));
+				}
+			} else {
+				for (int i = arr.length - 1; i >= 0; i--) {
+					itemlist.add(getItemsById(Integer.parseInt(arr[i])));
+				}
+			}
+			return itemlist;
+		} else {
+			return null;
+		}
+	}
 }

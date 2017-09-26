@@ -7,7 +7,7 @@ public class DBHelper {
 	private static final String driver = "com.mysql.jdbc.Driver";
 	private static final String url = "jdbc:mysql://localhost:3306/shop?userUnicode=true&charcterEncoding=UTF-8";
 	private static final String username = "liold";
-	private static final String password = "532153684";
+	private static final String password = "";
 
 	private static Connection conn = null;
 

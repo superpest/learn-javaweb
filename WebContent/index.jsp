@@ -51,7 +51,7 @@
 	   		<dd><a href="s-01/index.jsp">hello</a></dd>
 	   	</dl>
 	   	<div class="text-center">
-		    <a href="https://github.com/lioldamon" target="_blank"> 小楫轻舟 </a> @ 2017 -  <script>document.write(new Date().getFullYear());</script> 
+		    <a href="https://github.com/superpest" target="_blank"> 小楫轻舟 </a> @ 2017 -  <script>document.write(new Date().getFullYear());</script> 
 		</div>
 	</div>
 </body>

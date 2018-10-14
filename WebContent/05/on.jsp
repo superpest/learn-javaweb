@@ -11,7 +11,7 @@
 <body>
 	<%
 		
-		String likes = "you likes is ";
+		String likes = "";
 		String[] likesArr = request.getParameterValues("like");
 		if(likesArr!=null){
 			for(String like :likesArr){

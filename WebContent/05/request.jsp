@@ -9,15 +9,14 @@
     <title>Document</title>
 </head>
 <body>
-
-    <p><%= request.getMethod() %></p>
-	<p><%= request.getMethod() %></p>
-	<p><%= request.getRequestURI() %></p>
-	<p><%= request.getProtocol() %></p>
-	<p><%= request.getServerName() %></p>
-	<p><%= request.getServerPort() %></p>
-	<p><%= request.getRemoteAddr() %></p>
-	<p><%= request.getRemoteHost() %></p>
+	<h2>查看request的参数</h2>
+    <p>Method ：<%= request.getMethod() %></p>
+	<p>RequestURI：<%= request.getRequestURI() %></p>
+	<p>Protocol：<%= request.getProtocol() %></p>
+	<p>ServerName：<%= request.getServerName() %></p>
+	<p>ServerPort：<%= request.getServerPort() %></p>
+	<p>RemoteAddr：<%= request.getRemoteAddr() %></p>
+	<p>RemoteHost：<%= request.getRemoteHost() %></p>
 	
 	请求体的MIME类型:<%=request.getContentType() %><br>
 	协议类型及版本号:  <%=request.getProtocol() %><br>

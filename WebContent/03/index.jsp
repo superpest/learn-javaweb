@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
+	<p>使用的jsp:include</p>
     <jsp:include page="header.html"></jsp:include>
     
     <jsp:include page="footer.jsp">

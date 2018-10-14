@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+<p>登陆的做法是，把用户的信息写进session.它只属于你，区别cookie是 前端人员看不到，</p>
 	<form action="check-login.jsp" method="post">
 	    <div>
 	        <label for="">username</label>

@@ -11,6 +11,7 @@
    		String name =request.getParameter("name");
    		String age = request.getParameter("age");
    %>
+   <p>我是被forward到的</p>
 	<ul>
    		<li>NAME: <%= name%></li>
    		<li>AGE: <%= age%></li>

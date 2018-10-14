@@ -10,14 +10,14 @@
     <title>Document</title>
 </head>
 <body>
+	<p>下面使用out.print输出的</p>
     <%
     
 	    out.println("11111");
 	    out.print("222222");
 	    out.newLine();
 	    out.println("<br />");
-	    out.clear();
-
+	   
 	    
     %>
     <%= out.getBufferSize() %>

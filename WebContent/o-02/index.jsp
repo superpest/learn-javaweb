@@ -29,7 +29,7 @@
 		
 		<br />
 		
-		<form name="loginForm" action="<%= path%>/o-02/dologin.jsp?pc=123" method="post">
+		<form name="loginForm" action="<%= path%>/o-02/dologin.jsp" method="post">
 		    <div class="form-group">
 		        <label>用户名：</label>
 		        <input type="text" name="userName" class="form-control" >

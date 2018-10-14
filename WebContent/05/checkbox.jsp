@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<p>checkbox获取的是个数组</p>
 <form action="on.jsp" method="post">
     <input type="checkbox" name="like" value="run" />run
     <input type="checkbox" name="like" value="bike" />bike

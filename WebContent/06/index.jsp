@@ -15,5 +15,5 @@
 		cookie.setMaxAge(3600);
 		response.addCookie(cookie);
 	%>
-	<h1>cookie</h1>
+	<h1>已经写好了cookie，名字是username</h1>
 </html>

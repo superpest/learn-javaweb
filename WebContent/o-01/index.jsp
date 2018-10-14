@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="<%= path%>/lib/bootstrap.css">
 </head>
 <body>
+
 	<%
+	 	// 从cookie上取上次用户登陆保存的信息，
 		request.setCharacterEncoding("utf-8");
 		String username="";
 		String password = "";

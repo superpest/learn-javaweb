@@ -23,15 +23,9 @@
 	
 	<div class="container">
 	
-		<%--  <jsp:setProperty name="myUser" property="*"/>  --%>
-		 
-		<%--  <jsp:setProperty name="myUser" property="userName"/>  --%> 
-		 
-		<%--  <jsp:setProperty name="myUser" property="userName" value="lisi"/>
-   		 <jsp:setProperty name="myUser" property="password" value="888888"/> --%>
    		 
    		 <jsp:setProperty name="myUser" property="userName"/>
-    	 <jsp:setProperty name="myUser" property="password" param="pc" />
+    	 <jsp:setProperty name="myUser" property="password" />
 		 
 		 
 		 <p><jsp:getProperty name="myUser" property="userName" /></p>

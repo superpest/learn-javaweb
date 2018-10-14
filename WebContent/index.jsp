@@ -20,23 +20,23 @@
 	   	<h1><%= str %></h1>
 	   	<dl>
 			<dt>jsp</dt>
-	   		<dd><a href="01/index.jsp">include</a></dd>
-	   		<dd><a href="01/iserror.jsp">error</a></dd>
-	   		<dd><a href="02/index.jsp">forward</a></dd>
-	   		<dd><a href="03/index.jsp">jsp:include</a></dd>
-	   		<dd><a href="04/index.jsp">javaBean</a></dd>
-	   		<dd><a href="05/index.jsp">out</a></dd>
-	   		<dd><a href="05/request.jsp">requrest</a></dd>
-	   		<dd><a href="05/checkbox.jsp">checkbox</a></dd>
-	   		<dd><a href="06/index.jsp">cookie</a></dd>
-	   		<dd><a href="07/login.jsp">session</a></dd>
-	   		<dd><a href="08/index.jsp">application</a></dd>
+	   		<dd><a href="01/index.jsp">include的用法</a></dd>
+	   		<dd><a href="01/iserror.jsp">error的用法</a></dd>
+	   		<dd><a href="02/index.jsp">forward的用法</a></dd>
+	   		<dd><a href="03/index.jsp">jsp:include的用法</a></dd>
+	   		<dd><a href="04/index.jsp">javaBean的用法</a></dd>
+	   		<dd><a href="05/index.jsp">out的用法</a></dd>
+	   		<dd><a href="05/request.jsp">requrest上参数的获取</a></dd>
+	   		<dd><a href="05/checkbox.jsp">checkbox上的参数如何接收</a></dd>
+	   		<dd><a href="06/index.jsp">写一个cookie</a></dd>
+	   		<dd><a href="07/login.jsp">session用法</a></dd>
+	   		<dd><a href="08/index.jsp">在application上写点数据</a></dd>
 	   		<dd><a href="09/index.jsp">page</a></dd>
-	   		<dd><a href="09/error.jsp">error</a></dd>
+	   		<dd><a href="09/error.jsp">看下error的详情</a></dd>
 	   	</dl>
 	 	<dl>
 			<dt>jstl</dt>
-	   		<dd><a href="10/index.jsp">jstl:core</a></dd>
+	   		<dd><a href="10/index.jsp">jstl简单使用</a></dd>
 	   	</dl>
 	   	<dl>
 			<dt>other</dt>

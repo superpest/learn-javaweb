@@ -11,13 +11,14 @@
 <body>
 
 	<%if(session.getAttribute("username")!=null){%>
-		hello, <%= session.getAttribute("username") %>
+		hello, 你输入的名字是 <%= session.getAttribute("username") %>
 		
 		<br />
 		<%if(session.isNew()){%>
-			welcome new user
+			welcome new user(登陆后只显示一次，刷新就没有了) <br>
 		<%}else{%>
-			welcome old user <a href="logout.jsp">logout</a>
+			<br>点击链接，删掉sesion
+			 <br> <a href="logout.jsp">logout</a>
 		<%}%>
 		
 	<%}else{%>

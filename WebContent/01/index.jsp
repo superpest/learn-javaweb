@@ -7,8 +7,10 @@
     <title>Document</title>
 </head>
 <body>
+	<p>include html</p>
     <%@ include file="header.html" %>
-   	 <%@ include file="footer.jsp" %>
+    <p>include jsp</p>
+   	<%@ include file="footer.jsp" %>
    	
 </body>
 </html>
